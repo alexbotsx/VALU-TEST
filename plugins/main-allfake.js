@@ -121,15 +121,15 @@ handler.all = async function (m) {
   var more = String.fromCharCode(8206)
   global.readMore = more.repeat(850)
 
-  global.packN = `Pᴏʀɴʜᴜʙ: @BʏSkyBot\n\n☁ 𝖲𝖾𝗇𝖽𝗂𝗇𝗀 𝖻𝗒 𝖡𝗈𝗍:\n↳ @${usnamebot}\n🌺 𝖴𝗌𝗎𝖺𝗋𝗂𝗈:`;
+  global.packN = `@SkyBot\n\n☁ 𝖲𝖾𝗇𝖽𝗂𝗇𝗀 𝖻𝗒 𝖡𝗈𝗍:\n↳ @${usnamebot}\n🌺 𝖴𝗌𝗎𝖺𝗋𝗂𝗈:`;
   global.authN = `\n↳ @${usname}`;
 
   //FAKES
   global.fkontak = { key: { participants: "0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` } }, "participant": "0@s.whatsapp.net" }
 
-  global.idchannel = '120363394571210599@newsletter'
-  global.canalIdM = ["120363394571210599@newsletter", "120363394571210599@newsletter", "120363394571210599@newsletter"]
-  global.canalNombreM = ["Pᴏʀɴʜᴜʙ: @BʏSkyBot", "Pᴏʀɴʜᴜʙ: @BʏSkyBot", "Pᴏʀɴʜᴜʙ: @BʏSkyBot"]
+  global.idchannel = '1203633945712105900@newsletter'
+  global.canalIdM = ["1203633945712105900@newsletter", "120363394571210599@newsletter", "120363394571210599@newsletter"]
+  global.canalNombreM = ["@SkyBot", "@SkyBot", "@SkyBot"]
   global.channelRD = await getRandomChannel()
 
   global.icono = [

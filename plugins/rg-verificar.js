@@ -60,7 +60,7 @@ let handler = async function (m, { conn, text, args, usedPrefix, command }) {
                 title: 'Pᴏʀɴʜᴜʙ: SkyBot',
                 body: club,
                 thumbnailUrl: 'https://files.catbox.moe/nwqdwh.jpg',
-                sourceUrl: 'https://whatsapp.com/channel/0029Vb4TKBCD38CNEkfHdj1z',
+                sourceUrl: 'https://whatsapp.com/channel/0029Vb6Rm0wEwEk0WDTYM30q/100',
                 mediaType: 1,
                 showAdAttribution: true,
                 renderLargerThumbnail: true
