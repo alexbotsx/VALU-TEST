@@ -6,7 +6,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) 
     throw false;
   }
 
-  const emoji = global.db.data.chats[m.chat]?.emojiTag || '🌿';
+  const emoji = global.db.data.chats[m.chat]?.emojiTag || '💨';
   const countryFlags = {
     '52': '🇲🇽', '57': '🇨🇴', '54': '🇦🇷', '34': '🇪🇸', '55': '🇧🇷',
     '1': '🇺🇸', '44': '🇬🇧', '91': '🇮🇳', '502': '🇬🇹', '56': '🇨🇱',
@@ -23,7 +23,7 @@ const handler = async (m, { isOwner, isAdmin, conn, text, participants, args }) 
       if (countryFlags[phonePrefix]) return countryFlags[phonePrefix];
     }
 
-    return '🏁';
+    return '💨';
   };
 
   const pesan = args.join` `;
