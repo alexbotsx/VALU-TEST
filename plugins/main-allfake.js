@@ -133,21 +133,21 @@ handler.all = async function (m) {
   global.channelRD = await getRandomChannel()
 
   global.icono = [
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
-    "https://files.catbox.moe/zxwd04.jpg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
+    "https://files.catbox.moe/33lohc.jpeg",
   ].getRandom()
 
   global.urls = [

@@ -10,8 +10,8 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 
     // VCARD
     let list = [{
-        displayName: "SkyBot Sexo",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: SkyBot Sexo
+        displayName: "SkyBot",
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: SkyBot
 \nitem1.TEL;waid=56971943258:56971943258\nitem1.X-ABLabel:Número\nitem2.EMAIL;type=INTERNET: skybot.ofc@gmail.com\nitem2.X-ABLabel:Email\nitem3.URL:https://www.instagram.com/skybot.ofc\nitem3.X-ABLabel:Internet\nitem4.ADR:;; Perú 🇵🇪;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
     }];
 
@@ -25,7 +25,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
                 showAdAttribution: true,
                 title: 'Hello, I am the official creator of SkyBot.',
                 body: dev,
-                thumbnailUrl: 'https://files.catbox.moe/zxwd04.jpg',
+                thumbnailUrl: 'https://files.catbox.moe/33lohc.jpeg',
                 sourceUrl: 'https://wa.me/56971943258?text=Hola+quiero+adquirir+bot',
                 mediaType: 1,
                 renderLargerThumbnail: true
